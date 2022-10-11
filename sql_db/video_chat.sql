@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-08-2022 a las 17:54:39
+-- Tiempo de generación: 11-10-2022 a las 16:16:06
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 7.3.31
 
@@ -128,10 +128,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `cedula`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`, `last_login_at`, `last_login_ip`, `about`, `avatar_path`, `tipo_usuario`, `estado_video_call`) VALUES
-(1, '1314242049', 'juan.roland@outlook.es', 'bar@example.com', '2022-08-01 15:27:53', '$2y$10$H0B6IBRsjMk3USc3/Sq5WuOkvUuF3i/mEjepo6D2w9FhrAA.4eRnC', 'RchsAEhJ0bOPkQ96sCEVLbVM4MHAUnFdsnKm87WT8oSMOFG0JQdiNXX896XI', NULL, '2022-08-25 20:36:58', '2022-08-15 17:25:35', NULL, NULL, NULL, 'admin', 'Libre'),
-(40, '654321', 'beatriz- mora', 'test654321@test.com', NULL, '$2y$10$wEkVp2gyG7tVjlpdlnykIuwCmwpMP/8NNMwips5TQVcIZp46Y2MVO', NULL, '2022-08-20 03:03:27', '2022-08-20 04:29:21', NULL, NULL, NULL, NULL, 'Invitado', 'Libre'),
-(43, '1212121212', 'tyu fgh', 'test1212121212@test.com', NULL, '$2y$10$MRZ16DNX0UN1OQgxMOnaxOrXWhzsKLjC51tCnQteaH5EkYlK5.r02', NULL, '2022-08-22 20:53:16', '2022-08-23 01:25:01', NULL, NULL, NULL, NULL, 'Invitado', 'Libre'),
-(45, '1305828301', 'SIRLEYS SAMIRITA NAVARRETE MUÑOZ', NULL, NULL, '$2y$10$OaP6uYxSb5w.vI.i6N/m.u8CJgRqAHi.HPYhauTgmNudcvuwYcuNq', NULL, '2022-08-25 20:09:05', '2022-08-25 20:36:36', NULL, NULL, NULL, NULL, 'Invitado', 'Libre');
+(40, '654321', 'Jose Piguave', 'test654321@test.com', NULL, '$2y$10$wEkVp2gyG7tVjlpdlnykIuwCmwpMP/8NNMwips5TQVcIZp46Y2MVO', NULL, '2022-08-20 03:03:27', '2022-08-20 04:29:21', NULL, NULL, NULL, NULL, 'Invitado', 'Libre'),
+(43, '1212121212', 'Marcela Perez', 'test1212121212@test.com', NULL, '$2y$10$MRZ16DNX0UN1OQgxMOnaxOrXWhzsKLjC51tCnQteaH5EkYlK5.r02', NULL, '2022-08-22 20:53:16', '2022-08-23 01:25:01', NULL, NULL, NULL, NULL, 'Invitado', 'Libre'),
+(45, '1305828301', 'Maria Asuncion', 'abc@abc.es', NULL, '$2y$10$OaP6uYxSb5w.vI.i6N/m.u8CJgRqAHi.HPYhauTgmNudcvuwYcuNq', NULL, '2022-08-25 20:09:05', '2022-10-11 19:13:13', NULL, NULL, NULL, NULL, 'Invitado', 'Libre'),
+(46, '1314242049', 'ghghghghg@eee.es bvn', NULL, NULL, '$2y$10$gonPgT30s9aw3wh2puo5euPTWRjfjXqomIKw.N5QhMZ3ZWf4Amoxi', NULL, '2022-09-05 22:42:44', '2022-10-11 19:13:15', NULL, NULL, NULL, NULL, 'admin', 'Libre');
 
 -- --------------------------------------------------------
 
@@ -219,7 +219,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT de la tabla `wossop_messages`
